@@ -14,7 +14,7 @@ while true; do
     echo "$CLIENT_ID"
     echo ""
     echo "Flashing..."
-    ./SAMD21.sh & ./ATiny10.sh ##& ./xil.cmd Xilinx support still in progress due to MES limitations in Ubuntu (under review)
+    ./SAMD21.sh & ./ATiny10.sh & ./xil.cmd ## Check README.md to view ISE installation example
     wait
     clear
     echo "$PROD_ID"
